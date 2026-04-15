@@ -81,9 +81,7 @@ def fetch_roverx_data():
     except Error as e:
         st.error(f"❌ Query error: {e}")
         return None
-    finally:
-        if conn:
-            conn.close()
+    
  
 # ============================================================================
 # FETCH DATA
