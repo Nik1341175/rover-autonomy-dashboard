@@ -32,7 +32,7 @@ if not st.session_state.authenticated:
     passkey = st.text_input("Enter Passkey:", type="password")
     
     if st.button("Login"):
-        if passkey == st.secrets.get("passkey", "roverx2026"):
+        if passkey == st.secrets.get("passkey", "roverx123"):
             st.session_state.authenticated = True
             st.rerun()
         else:
