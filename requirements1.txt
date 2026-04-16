@@ -2,5 +2,3 @@ streamlit
 psycopg2-binary
 pandas
 plotly
-pyserial
-pynmea2
